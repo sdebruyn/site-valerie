@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Valérie Czaplewski"
 theme = "split"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
-copyright = "© Valérie Czaplewski"
+copyright = "© Valérie Czaplewski. VAT# BE1005244553"
 enableGitInfo = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -45,12 +45,12 @@ simple = false
 
 [params]
 author = "Valérie Czaplewski"
-description = "TODO"
+description = "Customer-centric professional with nearly 8 years of experience in customer experience. Expert in social media care, conversational UX, and copywriting. Highly communicative, motivated & cooperative. Feline friend & sommelier in her spare time."
 
 [params.visual]
 [params.visual.image]
 enable = true
-file = "images/background.jpg"
+file = "images/profilepic.jpg"
 position = "center center"
 
 [[params.links]]
@@ -60,3 +60,6 @@ heading = "Connect"
 text = "LinkedIn"
 url = "https://www.linkedin.com/in/valeriecz/"
 new_tab = true
+[[params.links.list1.link]]
+text = "Email"
+url = "mailto:web.valerie@czaplewski.be"
