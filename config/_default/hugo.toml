@@ -1,0 +1,62 @@
+languageCode = "en-us"
+title = "Valérie Czaplewski"
+theme = "split"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+copyright = "© Valérie Czaplewski"
+enableGitInfo = true
+enableRobotsTXT = true
+enableEmoji = true
+author = "Valérie Czaplewski"
+summaryLength = 50
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+[social]
+twitter = "s_debruyn"
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = false
+style = 'monokai'
+tabWidth = 4
+enableInlineShortcodes = true
+
+[permalinks]
+blog = "/:year/:title/"
+
+[privacy.twitter]
+disable = false
+enableDNT = true
+simple = false
+
+[params]
+author = "Valérie Czaplewski"
+description = "TODO"
+
+[params.visual]
+[params.visual.image]
+enable = true
+file = "images/background.jpg"
+position = "center center"
+
+[[params.links]]
+[params.links.list1]
+heading = "Connect"
+[[params.links.list1.link]]
+text = "LinkedIn"
+url = "https://www.linkedin.com/in/valeriecz/"
+new_tab = true
