@@ -3,4 +3,6 @@ title = "Valérie Czaplewski"
 tagline = "Freelance Conversational UX Designer"
 +++
 
-Customer-centric professional with nearly 8 years of experience in customer experience. Expert in social media care, conversational UX, and copywriting. Highly communicative, motivated & cooperative. Feline friend & sommelier in her spare time.
+UX designer focused on what matters most: real people. I combine user research with thoughtful design to challenge assumptions and create meaningful experiences — including in conversational UX.
+
+Outside of work? You’ll find me with a glass of wine and a purring cat.
