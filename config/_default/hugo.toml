@@ -35,7 +35,7 @@ enableInlineShortcodes = true
 [permalinks]
 blog = "/:year/:title/"
 
-[privacy.twitter]
+[privacy.x]
 disable = false
 enableDNT = true
 simple = false
