@@ -1,4 +1,0 @@
-baseURL = "https://czaplewski.be/"
-buildFuture = true
-refLinksErrorLevel = "WARNING"
-refLinksNotFoundURL = "/index.html"

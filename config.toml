@@ -1,4 +1,5 @@
 languageCode = "en-us"
+baseURL = "https://czaplewski.be/"
 title = "Valérie Czaplewski"
 theme = "split"
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
@@ -9,31 +10,8 @@ enableEmoji = true
 author = "Valérie Czaplewski"
 summaryLength = 50
 
-# Local preview mode
-relativeURLs = true
-uglyURLs = true
-
-[markup]
-[markup.tableOfContents]
-endLevel = 3
-ordered = false
-startLevel = 2
-[markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = true
-[markup.highlight]
-anchorLineNos = false
-codeFences = true
-guessSyntax = true
-lineNoStart = 1
-lineNos = true
-lineNumbersInTable = false
-style = 'monokai'
-tabWidth = 4
-enableInlineShortcodes = true
-
-[permalinks]
-blog = "/:year/:title/"
+[minify]
+minifyOutput = true
 
 [privacy.x]
 disable = false
