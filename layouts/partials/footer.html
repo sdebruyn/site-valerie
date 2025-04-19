@@ -6,5 +6,39 @@
     {{ "this really helps contribute towards us developing more templates and means the world to me!" | safeHTML }}
     {{ "Cheers, Rob (@robhope)" | safeHTML }}
     {{ "-->" | safeHTML }}
-  </div>
-  
+</div>
+<script src="/t1.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    swetrix.init('8STgQCtTSCeX', {
+      apiURL: 'https://swetrix.debruyn.dev/log',
+      respectDNT: true,
+    })
+    swetrix.trackViews()
+    swetrix.trackErrors()
+  })
+</script>
+<noscript>
+  <img
+    src="https://swetrix.debruyn.dev/log/noscript?pid=8STgQCtTSCeX"
+    alt=""
+    referrerpolicy="no-referrer-when-downgrade"
+  />
+</noscript>
+<script defer
+  src="/t2.js"
+  data-website-id="f201c30e-a4fb-40f3-92c9-8b72c114a7d4"
+  data-host-url="https://umami.debruyn.dev"
+  data-do-not-track="true">
+</script>
+<script type="text/javascript">
+  (() => {
+    const name = 'outbound-link-click';
+    document.querySelectorAll('a').forEach(a => {
+      if (a.host !== window.location.host && !a.getAttribute('data-umami-event')) {
+        a.setAttribute('data-umami-event', name);
+        a.setAttribute('data-umami-event-url', a.href);
+      }
+    });
+  })();
+</script>
